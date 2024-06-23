@@ -1,8 +1,10 @@
 Hi there!
 
-This project was part of the course "Fintech and machine learning for finance" taught by Professor Corielli at Bocconi University.
-The original code was written by Prof Corielli; I implemented and added the second part of the file "Statistical arbitrage 2".
+Welcome to my project from the "Fintech and Machine Learning for Finance" course taught by Professor Corielli at Bocconi University. I started with the original code from Prof Corielli and added my own twist with the "Statistical Arbitrage 2" section.
 
-Feel free to drop any comments or recommendations!
+In this project, you'll find various implementations involving rolling regressions, residual analysis, and a mean-reverting trading strategy. The dataset used includes weekly prices and returns from the Eurostoxx financials.
 
+Feel free to check it out, and don't hesitate to drop any comments or recommendations!
+
+Cheers,
 Lorenzo
