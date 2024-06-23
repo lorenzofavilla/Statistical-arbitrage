@@ -12,10 +12,6 @@ from sklearn.linear_model import ElasticNet
 P=pd.read_excel("Eurostoxx_financials_returns.xlsx",sheet_name=1,index_col=0,parse_dates=True)
 P.index=P.index.strftime('%Y-%m-%d')
 
-#linear returns
-#R=pd.read_excel("Eurostoxx_financials_returns.xlsx",sheet_name=2,index_col=0,parse_dates=True)
-#R.index=R.index.strftime('%Y-%m-%d')
-
 #weekly prices and train test split
 wP=P.iloc[::5]
 Ptrain=wP.values[:256,:]
