@@ -170,7 +170,6 @@ plt.show()
 
 
 #3rd plot: cumulative P&L
-
 sumpl = np.cumsum(pl)
 plt.plot(sumpl)
 plt.title('Cumulative P&L (PLOT 6)')
